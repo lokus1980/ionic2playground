@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>What is this app all about?</h2>
+  <p>
+    Just leave this app one, put your phone to your pocket and start rinding a bike. We will notify you if we thin you're exceeding the maximum speed.
+  </p>
+  <h2>X = {{ gyroX }}</h2>
+  <h2>Y = {{ gyroY }}</h2>
+  <h2>Z = {{ gyroZ }}</h2>
+  <button ion-button round (click)="vibrateAndSayHello($event)">Vib and Speak!</button>
+</ion-content>
